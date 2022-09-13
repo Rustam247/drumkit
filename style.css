@@ -1,0 +1,35 @@
+body{
+    background-color:white;
+}
+.header{
+    text-align: center;
+    color: rgba(1, 71, 1, 0.856);
+}
+
+.drums{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.drums div{
+    width: 150px;
+    height: 50px;
+    background-color:rgb(166, 166, 166);
+    border: solid green;
+    margin: 10px;
+    text-align:center;
+    border-radius: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 470px;
+
+    width: 600px;
+    height: 500px;
+
+}
